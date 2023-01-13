@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="fixed bg-white h-16">
+    <div className="static bg-white h-16 z-30">
       <div className="flex-1 flex justify-evenly">
         <div className="flex-1 flex h-5 w-screen">
           <h1 className="fixed top-4 left-6 text-2xl tablet:text-xl decoration-black decoration-4 font-black select-none drop-shadow-xl shadow-black">

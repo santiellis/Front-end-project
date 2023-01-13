@@ -26,8 +26,18 @@ export default function Home() {
             href="https://github.com/santiellis"
             target="_blank"
             rel="noopener noreferrer"
+            className="underline"
           >
             Made by Santiago Ellis
+            <span className={styles.logo}></span>
+          </a>
+          <a
+            href="https://dribbble.com/shots/20309721-Pino-Finance-landing-page-concept"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline"
+          >
+            Acknowledgement: Design by Mahima Mahajan 
             <span className={styles.logo}></span>
           </a>
         </footer>
